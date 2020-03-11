@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add event Listner</title>
+</head>
+<body>
+    <button id ="btn">click me</button>
+    <script>
+        function myDiv1() {
+            alert("Are you sure to submit it ");
+        }
+        function myDiv2(){
+             alert("thanks for connecting us");
+        }
+        btn = document.getElementById("btn");
+        btn.addEventListener("click",myDiv1);
+        btn.addEventListener("click",myDiv2);
+    </script>
+    
+</body>
+</html>
